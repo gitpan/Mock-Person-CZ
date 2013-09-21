@@ -15,7 +15,7 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 	last_male last_female middle_male middle_female name);
 
 # Version.
-our $VERSION = '0.01';
+our $VERSION = 0.02;
 
 # First and middle male names.
 our @first_male = our @middle_male = qw(
@@ -394,11 +394,11 @@ L<cs.wikipedia.org - female names|http://cs.wikipedia.org/wiki/Seznam_nej%C4%8Da
 
 =item B<first_male()>
 
-Returns random fists name of male person.
+Returns random first name of male person.
 
 =item B<first_female()>
 
-Returns random fists name of female person.
+Returns random first name of female person.
 
 =item B<last_male()>
 
@@ -537,6 +537,9 @@ L<Readonly>.
 
 L<Mock::Person>,
 L<Mock::Person::DE>,
+L<Mock::Person::EN>,
+L<Mock::Person::SK>,
+L<Mock::Person::SK::ROM>,
 L<Mock::Person::SV>,
 L<Mock::Person::RU>.
 
@@ -556,6 +559,6 @@ BSD license.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut

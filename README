@@ -34,10 +34,10 @@ DESCRIPTION
 
 SUBROUTINES
     first_male()
-            Returns random fists name of male person.
+            Returns random first name of male person.
 
     first_female()
-            Returns random fists name of female person.
+            Returns random first name of female person.
 
     last_male()
             Returns random last name of male person.
@@ -162,7 +162,8 @@ DEPENDENCIES
     Exporter, Readonly.
 
 SEE ALSO
-    Mock::Person, Mock::Person::DE, Mock::Person::SV, Mock::Person::RU.
+    Mock::Person, Mock::Person::DE, Mock::Person::SK, Mock::Person::SV,
+    Mock::Person::RU.
 
 REPOSITORY
     <https://github.com/tupinek/Mock-Person-CZ>
@@ -176,5 +177,5 @@ LICENSE AND COPYRIGHT
     BSD license.
 
 VERSION
-    0.01
+    0.02
 
